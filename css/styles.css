@@ -10,10 +10,30 @@ header h1 {
     margin-top: 20px;
 }
 
+/* Nav Secion */
+
+.nav {
+    margin-top: 20px;
+}
+
+/* nav > .nav > li {
+    border: 1px solid #5c433f;
+    border-radius: 5px;
+} */
+
+ a {
+    border: 1px solid #5c433f;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #5c433f;
+}
+
 .nav-pills > li.active > a {
     color: #5c433f;
     background-color: #eeddcd;
 }
+/* End of Nav Section */
+
 
 /* Jumbotron Section */
 .jumbotron {
@@ -30,3 +50,26 @@ header h1 {
 }
 
 /* End of Jumbotron */
+
+/* MAIN SECTION */
+
+.img_box {
+    background-color: #eeddcd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* .product {
+    margin-right: 5px;
+} */
+
+aside > ul > li > a {
+    background-color: #eeddcd;
+}
+
+.btn {
+    border: 1px solid #5c433f;
+    background-color: #fff;
+}
+
+/* END OF MAIN SECTION */
