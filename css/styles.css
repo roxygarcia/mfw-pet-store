@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+.logo {
+    width: 90px;
+}
+
+header h1 {
+    color: #c9c983;
+    font-family: 'Satisfy', cursive;
+    margin-top: 20px;
+}
+
+/* Nav Secion */
+
+.nav {
+    margin-top: 20px;
+}
+
+
+ /* a {
+    border: 1px solid #5c433f;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #5c433f;
+} */
+
+.nav-pills > li.active > a {
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
+.nav-pills > li.active > a:hover, .product button:hover, footer a:hover {
+    background-color: #edf1f4;
+    color: #5c433f;
+}
+
+nav li {
+    font-size: 15px;
+}
+
+li a {
+    color: #5c433f;
+    border: 1px solid;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav {
+    top: 20px;
+}
+
+.featured {
+    margin-bottom: 60px;
+}
+/* End of Nav Section */
+
+
+
+
+/* Jumbotron Section */
+.jumbotron {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.jumbotron h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+/* End of Jumbotron */
+
+
+/* MAIN SECTION */
+
+.product {
+    background-color: #eeddcd;
+    /* padding: 10px; */
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+
+.img_box {
+    margin: 10px 0px;
+}
+
+
+/* my button color, aside tag */
+/* aside > ul > li > a {
+    background-color: #eeddcd;
+} */
+
+aside a, footer {
+    background-color: #eeddcd;
+}
+
+/* my button section for purchase buttons under images */
+/* .btn {
+    border: 1px solid #5c433f;
+    background-color: #fff;
+} */
+
+/* END OF MAIN SECTION */
+
+.product button {
+    margin-bottom: 10px;
+    border: 1px solid #5c433f;
+    background-color: #fff;
+
+}
+
+footer {
+    padding-top: 20px;
+    max-height: 100%;
+}
+
+footer a {
+    color: #5c433f;
+}
+
+footer img {
+    height: 90px;
+}
+
+.contact_info {
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.social, 
+.contact_info {
+    padding-top: 15px;
+
+}
+
+footer .fine_print {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+@media(max-width:  768px) {
+    .centered {
+        float: none;
+        margin: 0 auto;
+    }
+    nav {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        top: 5px;
+    }
+    .social {
+        margin: 20px 10px 0px;
+    }
+    aside {
+        margin-bottom: 60px;
+    }
+}
